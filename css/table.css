@@ -1,0 +1,53 @@
+
+
+
+.container>.row{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    align-items: center;
+}
+
+/* .container>.row>.col{
+    border-left-style: solid;
+    border-color: black;
+    border-width: 1px;
+} */
+
+
+input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+}
+
+
+.card-text.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.card-text.table th, 
+.card-text.table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+.card-text.table th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+.card-text.table td:first-child {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+.card-text.table tr:nth-child(even) {
+  background-color: #ddd;
+}
+.card-text.table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+
+
